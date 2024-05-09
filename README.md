@@ -83,10 +83,19 @@
        git push
        ```
   - Both students can now go to the repository on GitHub.com and both should see the changes made to the README.md file
-
-
-
-
+  - The student that did not create the README.md file will to the next steps
+    1. Open their local repository's directory and notice that the README.md file that the other student created is not there
+    2. Pull the changes from the remote repository on GitHub.com onto the local repository on your computer. In the terminal, open your local repository and run the command:
+       ```
+       git pull
+       ```
+    3. You should notice that the README.md file is now in your local repository directory
 
 ### Create Two New Branches
-- 
+- Each student will go to the GitHub repository and add a branch
+  - Navigate to the GitHub repository that you created above
+  - Click on the drop-down labeled `main` in the upper left side of the screen
+  - In the input field that says `"Find or create a branch..."` enter your last name. Each of the two students will creat a branch with their last name
+  - Click on the text that says `"Create branch <your_last_name> from main"`
+  - At this point there should be three branches in your repository: `main`, and two student branches
+  
