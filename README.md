@@ -98,4 +98,38 @@
   - In the input field that says `"Find or create a branch..."` enter your last name. Each of the two students will creat a branch with their last name
   - Click on the text that says `"Create branch <your_last_name> from main"`
   - At this point there should be three branches in your repository: `main`, and two student branches
-  
+  - From this point on, I will refer to the two students as `Student_1` and `Student_2` for ease of understanding
+
+### Student 1
+- On your computer, go your local repository
+- List the available branches
+  ```
+  git branch -r
+  ```
+- You will not see your branch yet, because your local repository has not been updated to reflect the branches that exist on the remote repository
+- Update your local repository to match the remote repository by using the `pull` command
+  ```
+  git pull
+  ```
+- List the available branches again, and this time you should see your branch
+  ```
+  git branch -r
+  ```
+- Now that you can see your branch is available for checkout, let's first verify which branch you are currently on
+  ```
+  git branch
+  ```
+- You should see the word `main` displayed in green, or with an arrow next to it depending on your operating system. This means that you are on the main branch
+- Switch to the branch that you created (the name of the branch should be your last name) by using the `git checkout` command
+  ```
+  git checkout <your_branch_name>
+  ```
+  - Example:
+    ```
+    git checkout smith
+    ```
+- Verify that you are on your branch
+  ```
+  git branch
+  ```
+- You should see a listing of branch names, but main is no longer highlighted; now your branch is highlighted. This indicates that you are on your branch and not the main branch
