@@ -15,4 +15,7 @@
 - This lab will walk you through some of the most common git actions using the GitHub Source Control Management (SCM) developer platform
 
 ### Creating a Remote GitHub Repository
-- 
+- Navigate to [https://github.com](https://github.com) and login
+- Click on the green button labelled `New`
+
+  ![new button](./Images/new_button.png)
