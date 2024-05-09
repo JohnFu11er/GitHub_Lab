@@ -56,9 +56,6 @@
   - Select the `Public` button
   - Click `Create repository` at the bottom of the page
 
-### Create Two New Branches
-- 
-
 ### Make The Initial Commit to your Repository
 - Clone the repository to your local computer
   - Copy the SSH clone link on your new repository's main page
@@ -68,3 +65,28 @@
     ```
     git clone git@github.com:JohnFu11er/smith-carter-lab.git
     ```
+- Create your first commit
+  - Change into the new directory that was created when you cloned your repository
+  - Only one student will perform the next steps:
+    1. Create a new file named "README.md" in the repository's directory
+    2. Add the text "- Initial commit" to the README.md file and save
+    3. From the terminal line add your changes to the staging area
+       ```
+       git add .
+       ```
+    4. From the terminal commit your changes that are in the staging area
+       ```
+       git commit -m "initial commit"
+       ```
+    5. Push your changes to the remote repository on GitHub.com
+       ```
+       git push
+       ```
+  - Both students can now go to the repository on GitHub.com and both should see the changes made to the README.md file
+
+
+
+
+
+### Create Two New Branches
+- 
