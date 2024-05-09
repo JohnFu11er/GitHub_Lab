@@ -4,7 +4,18 @@
 ### Sections
 - [Resources](#resources)
 - [Introduction](#introduction)
+- [Configuring SSH authentication](#configuring-ssh-authentication-to-github)
 - [Creating a Remote GitHub Repository](#creating-a-remote-github-repository)
+- [Make The Initial Commit to your Repository](#make-the-initial-commit-to-your-repository)
+- [Create Two New Branches](#create-two-new-branches)
+- [Student 2 Edits Their Branch](#student-2-edits-their-branch)
+- [Student_2 creates a pull request on GitHub](#student_2-creates-a-pull-request-on-github)
+- [Student_1 Merges Student_2's branch into main](#student_1-merges-student_2s-branch-into-main)
+- [Student_1 Updates their local repo to view the changes to main](#student_1-updates-their-local-repo-to-view-the-changes-to-main)
+- [Student_1 rebase their branch to the main branch](#student_1-rebase-their-branch-to-the-main-branch)
+- [Student_2 local repository cleanup](#student_2-local-repository-cleanup)
+- [Conclusion](#conclusion)
+
 
 ### Resources
 - [Git Documentation](https://git-scm.com/doc)
