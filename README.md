@@ -32,7 +32,16 @@
     cat id_rsa.pub
     ```
   - Copy the entire public key
-- 
+- Configure your GitHub profile to use your SSH keypair
+  - Navigate to [https://github.com](https://github.com) and login
+  - Click on your `user icon` in the top right of the GitHub page
+  - Click on `Settings` in the drop-down
+  - Click on `SSH and GPG keys` on the left-side of the settings page
+  - Click on `New SSH Key`
+  - Enter a name in the `Title` section
+  - Paste your public key into the `Key` box
+  - Click `Add SSH key`
+  - Your key has been added
 
 ### Creating a Remote GitHub Repository
 - Navigate to [https://github.com](https://github.com) and login
@@ -46,3 +55,16 @@
   - Leave description blank
   - Select the `Public` button
   - Click `Create repository` at the bottom of the page
+
+### Create Two New Branches
+- 
+
+### Make The Initial Commit to your Repository
+- Clone the repository to your local computer
+  - Copy the SSH clone link on your new repository's main page
+    ![git clone](./Images/git_clone_link.png)
+  - Open your terminal window and navigate to the directory where you want to clone your remote repository
+  - Clone the remote repository to your computer (this is an example, yours will be diferent)
+    ```
+    git clone git@github.com:JohnFu11er/smith-carter-lab.git
+    ```
