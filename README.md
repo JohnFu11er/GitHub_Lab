@@ -230,6 +230,23 @@
   - Student_2 adds a new line in their branch
   ```
 
+### Student_1 rebase their branch to the main branch
+- Student_1, go to your terminal line. Make sure that you are in your local repository's directory
+- At this point you should have two branches listed in the output of your `git branch -r` command; `main` branch and your branch
+- Since you have performed a pull, your local repository `main` branch is up to date with what is on the remote repository `main` branch
+- However, your branch does not have the changes added to the remote repository `main` branch
+- To add the changes in the remote repository `main` branch to your branch we are going to use the rebase command
+- First change to your branch in your local repository
+  ```
+  git checkout <your_branch_name>
+  ```
+- Next, run the rebase command and designate the `main` branch as the one that you want to `rebase` to
+  ```
+  git rebase main
+  ```
+- Now, any code that was in your local branch will have any changes from the `main` branch added to it
+- Rebasing is a very important topic in using git (either GitHub, GitLab, or other SCM programs)
+
 ### Student_2 local repository cleanup
 - Student_2, go to your terminal line. Make sure that you are in your local repository's directory
 - Checkout (switch to) the `main` branch
@@ -244,8 +261,12 @@
   ```
   git branch
   ```
-- Remove your branch on your local repository
+- Remove your branch on your local repository. This branch was merged into `main` in the steps above
   ```
   git branch -D <your_branch_name>
   ```
 - List the branches on your local repository again, and you should see that your branch is no longer listed
+
+### Conclusion
+- This should give you a basic understanding of working with GitHub
+- You can go through this lab again by making a new repository, or you can have Student_1 make changes to their branch and push those changes to the remote repo, create a pull request, merge the code, etc...
